@@ -30,5 +30,9 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Id: "+id+" Nome: "+nome+" Login: "+login+" Senha: "+senha;
+	}
 }
